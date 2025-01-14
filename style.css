@@ -1,0 +1,107 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+  padding: 35px;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  font-family: Poppins;
+  border-radius: 10px;
+}
+#nav {
+  height: 100px;
+  width: 100%;
+  /* background-color: brown; */
+  display: flex;
+  align-items: center; /* middle of div */
+  justify-content: flex-end;
+  gap: 30px;
+  padding: 0 30px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+#nav i {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  padding: 10px;
+  font-weight: 500;
+}
+#center {
+  /* height: 40%; */
+  width: 100%;
+  /* background-color: antiquewhite; */
+  padding: 40px 80px;
+}
+#center h1 {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 90px;
+}
+#center-in {
+  height: 200px;
+  width: 100%;
+  /*  background-color: aqua; */
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#center-in p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+}
+#right {
+  width: 20%;
+}
+.elem {
+  /* background-color: yellow; */
+
+  padding: 20px 0;
+  border-top: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.elem i {
+  font-size: 25px;
+  font-weight: 600;
+  opacity: 0;
+}
+.elem a {
+  color: black;
+  text-decoration: none; /*niche line hat jatiha */
+  font-weight: 600;
+  font-size: 20px;
+}
+.elem:hover {
+  background-color: #f2f2f2;
+}
+.elem:hover i {
+  opacity: 1;
+}
+.elem:hover a {
+  text-decoration: underline;
+}
+#bottom {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1617551307538-c9cdb9d71289?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    border-radius: 10px;
+    background-size: cover;; /* Ensures the image covers the area */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: 0 30%; /* Centers the image within the div */
+  }
+  
